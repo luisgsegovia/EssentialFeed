@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2AFCE629E4C80100DD7EC3 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AFCE529E4C80100DD7EC3 /* RemoteFeedLoaderTests.swift */; };
 		6CA1D30829E4C3FB00673A70 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1D30729E4C3FB00673A70 /* EssentialFeed.docc */; };
 		6CA1D30E29E4C3FB00673A70 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1D30329E4C3FB00673A70 /* EssentialFeed.framework */; };
 		6CA1D31329E4C3FB00673A70 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1D31229E4C3FB00673A70 /* EssentialFeedTests.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C2AFCE529E4C80100DD7EC3 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		6CA1D30329E4C3FB00673A70 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA1D30729E4C3FB00673A70 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
 		6CA1D30D29E4C3FB00673A70 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				6CA1D31229E4C3FB00673A70 /* EssentialFeedTests.swift */,
+				6C2AFCE529E4C80100DD7EC3 /* RemoteFeedLoaderTests.swift */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2AFCE629E4C80100DD7EC3 /* RemoteFeedLoaderTests.swift in Sources */,
 				6CA1D31329E4C3FB00673A70 /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
