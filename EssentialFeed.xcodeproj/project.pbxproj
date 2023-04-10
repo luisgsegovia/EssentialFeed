@@ -11,6 +11,7 @@
 		6CA1D30E29E4C3FB00673A70 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1D30329E4C3FB00673A70 /* EssentialFeed.framework */; };
 		6CA1D31329E4C3FB00673A70 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1D31229E4C3FB00673A70 /* EssentialFeedTests.swift */; };
 		6CA1D31E29E4C4FE00673A70 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1D31D29E4C4FE00673A70 /* FeedItem.swift */; };
+		6CA1D32029E4C5E000673A70 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1D31F29E4C5E000673A70 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		6CA1D30D29E4C3FB00673A70 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA1D31229E4C3FB00673A70 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		6CA1D31D29E4C4FE00673A70 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		6CA1D31F29E4C5E000673A70 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +73,9 @@
 		6CA1D30529E4C3FB00673A70 /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				6CA1D30729E4C3FB00673A70 /* EssentialFeed.docc */,
 				6CA1D31D29E4C4FE00673A70 /* FeedItem.swift */,
+				6CA1D30729E4C3FB00673A70 /* EssentialFeed.docc */,
+				6CA1D31F29E4C5E000673A70 /* FeedLoader.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA1D32029E4C5E000673A70 /* FeedLoader.swift in Sources */,
 				6CA1D31E29E4C4FE00673A70 /* FeedItem.swift in Sources */,
 				6CA1D30829E4C3FB00673A70 /* EssentialFeed.docc in Sources */,
 			);
