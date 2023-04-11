@@ -87,7 +87,7 @@ class URLSessionHTTPClientTests: XCTestCase {
 
         override func startLoading() {
             guard let url = request.url, let stub = URLProtocolStub.stubs[url] else { return }
-            
+
             if let data = stub.data {
                 client?.urlProtocol(self, didLoad: data)
             }
