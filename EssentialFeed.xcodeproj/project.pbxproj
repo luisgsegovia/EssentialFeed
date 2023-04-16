@@ -205,7 +205,6 @@
 		6C93EF2E29EA189600D358F1 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
-				6C93EF3029EA18FF00D358F1 /* Codable */,
 				6C93EF2F29EA18D100D358F1 /* CoreData */,
 			);
 			path = Infrastructure;
@@ -221,13 +220,6 @@
 				6C93EF3529EA198B00D358F1 /* ManagedFeedImage.swift */,
 			);
 			path = CoreData;
-			sourceTree = "<group>";
-		};
-		6C93EF3029EA18FF00D358F1 /* Codable */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Codable;
 			sourceTree = "<group>";
 		};
 		6CA1D2F929E4C3FB00673A70 = {
