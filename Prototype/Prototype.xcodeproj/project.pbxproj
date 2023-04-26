@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C262BFA29F9E85100DA3856 /* FeedImageViewModel+PrototypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C262BF929F9E85000DA3856 /* FeedImageViewModel+PrototypeData.swift */; };
 		6C40486629F9D6FC00BC56E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40486529F9D6FC00BC56E0 /* AppDelegate.swift */; };
 		6C40486829F9D6FC00BC56E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40486729F9D6FC00BC56E0 /* SceneDelegate.swift */; };
 		6C40486D29F9D6FC00BC56E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C40486B29F9D6FC00BC56E0 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C262BF929F9E85000DA3856 /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
 		6C40486229F9D6FC00BC56E0 /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C40486529F9D6FC00BC56E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C40486729F9D6FC00BC56E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				6C40487029F9D6FD00BC56E0 /* LaunchScreen.storyboard */,
 				6C40487329F9D6FD00BC56E0 /* Info.plist */,
 				6C40487929F9E3C500BC56E0 /* FeedViewController.swift */,
+				6C262BF929F9E85000DA3856 /* FeedImageViewModel+PrototypeData.swift */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				6C40486629F9D6FC00BC56E0 /* AppDelegate.swift in Sources */,
 				6C40487A29F9E3C500BC56E0 /* FeedViewController.swift in Sources */,
 				6C40486829F9D6FC00BC56E0 /* SceneDelegate.swift in Sources */,
+				6C262BFA29F9E85100DA3856 /* FeedImageViewModel+PrototypeData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
