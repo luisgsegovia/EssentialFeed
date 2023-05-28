@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C08EB912A22E3080005C579 /* XCTTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE72B6529E61C8C006F7C2D /* XCTTestCase+MemoryLeakTracking.swift */; };
 		6C0C1EAF2A0EFF2200774A1C /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1D30329E4C3FB00673A70 /* EssentialFeed.framework */; platformFilter = ios; };
 		6C0C1EB02A0EFF2200774A1C /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1D30329E4C3FB00673A70 /* EssentialFeed.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6C262C2429F9F2AE00DA3856 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C262C1C29F9F2AE00DA3856 /* EssentialFeediOS.framework */; };
@@ -638,6 +639,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C08EB912A22E3080005C579 /* XCTTestCase+MemoryLeakTracking.swift in Sources */,
 				6CE045782A03218A00EE373F /* FeedViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
