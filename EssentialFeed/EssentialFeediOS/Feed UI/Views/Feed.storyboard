@@ -123,6 +123,7 @@
                         <connections>
                             <outlet property="dataSource" destination="VIK-vW-ILy" id="KsW-Rc-kT8"/>
                             <outlet property="delegate" destination="VIK-vW-ILy" id="DWe-DC-X95"/>
+                            <outlet property="prefetchDataSource" destination="VIK-vW-ILy" id="akA-Gf-2aZ"/>
                         </connections>
                     </tableView>
                     <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="aYZ-ck-5EX">
