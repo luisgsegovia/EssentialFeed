@@ -74,6 +74,9 @@
                                                             <state key="normal" title="↻">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
+                                                            <connections>
+                                                                <action selector="retryButtonTapped" destination="FTU-Hh-FWu" eventType="touchUpInside" id="zqm-qg-iWR"/>
+                                                            </connections>
                                                         </button>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GVT-s7-qUG">
                                                             <rect key="frame" x="0.0" y="0.0" width="353" height="353"/>
@@ -118,6 +121,14 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="zx4-G4-9Ar" secondAttribute="bottom" priority="999" constant="6" id="eoB-VL-hqE"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="zbd-WZ-cUC" id="NHw-vb-g44"/>
+                                    <outlet property="feedImageContainer" destination="HoF-7J-SAs" id="Qnl-xb-0v0"/>
+                                    <outlet property="feedImageRetryButton" destination="2G7-Do-rUH" id="p6e-Zi-BoT"/>
+                                    <outlet property="feedImageView" destination="GVT-s7-qUG" id="9cs-gV-3DS"/>
+                                    <outlet property="locationContainer" destination="ep6-iL-7FM" id="neR-8A-D5f"/>
+                                    <outlet property="locationLabel" destination="9Mt-rm-I2V" id="dzW-f1-upy"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
