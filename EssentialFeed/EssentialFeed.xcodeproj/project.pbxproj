@@ -183,6 +183,7 @@
 		6C93EF3529EA198B00D358F1 /* ManagedFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedFeedImage.swift; sourceTree = "<group>"; };
 		6C94691A2A551C6700F5526F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Feed.strings; sourceTree = "<group>"; };
 		6C94691C2A551CC400F5526F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
+		6C94691D2A551D1600F5526F /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
 		6CA1D30329E4C3FB00673A70 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA1D30729E4C3FB00673A70 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
 		6CA1D30D29E4C3FB00673A70 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -721,6 +722,7 @@
 				en,
 				Base,
 				"pt-BR",
+				el,
 			);
 			mainGroup = 6CA1D2F929E4C3FB00673A70;
 			productRefGroup = 6CA1D30429E4C3FB00673A70 /* Products */;
@@ -927,6 +929,7 @@
 			children = (
 				6C94691A2A551C6700F5526F /* en */,
 				6C94691C2A551CC400F5526F /* pt-BR */,
+				6C94691D2A551D1600F5526F /* el */,
 			);
 			name = Feed.strings;
 			sourceTree = "<group>";
