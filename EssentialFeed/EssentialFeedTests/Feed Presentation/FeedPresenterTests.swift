@@ -58,6 +58,13 @@ final class FeedPresenter {
         self.errorView = errorView
     }
 
+    static var title: String {
+        return NSLocalizedString("FEED_VIEW_TITLE",
+                                 tableName: "Feed",
+                                 bundle: Bundle(for: FeedPresenter.self),
+                                 comment: "Title for the feed view")
+    }
+
     func didStartLoadingFeed() {
         errorView.display(.noError)
         loadingView.display(FeedLoadingViewModel(isLoading: true))
@@ -75,21 +82,14 @@ final class FeedPresenter {
 }
 
 class FeedPresenterTests: XCTestCase {
+    func test_title_isLocalized() {
+        XCTAssertEqual(FeedPresenter.title, localized("FEED_VIEW_TITLE"))
+    }
 
     func test_init_doesNotSendMessagesToView() {
         let (_, view) = makeSUT()
 
         XCTAssertTrue(view.messages.isEmpty, "Expected no view messages")
-    }
-
-    // MARK: - Helpers
-
-    private func makeSUT(file: StaticString = #file, line: UInt = #line) -> (sut: FeedPresenter, view: ViewSpy) {
-        let view = ViewSpy()
-        let sut = FeedPresenter(feedView: view, loadingView: view, errorView: view)
-        trackForMemoryLeaks(view, file: file, line: line)
-        trackForMemoryLeaks(sut, file: file, line: line)
-        return (sut, view)
     }
 
     func test_didStartLoadingFeed_displaysNoErrorMessageAndStartsLoading() {
@@ -124,6 +124,16 @@ class FeedPresenterTests: XCTestCase {
             .display(errorMessage: localized("FEED_VIEW_CONNECTION_ERROR")),
             .display(isLoading: false)
         ])
+    }
+
+    // MARK: - Helpers
+
+    private func makeSUT(file: StaticString = #file, line: UInt = #line) -> (sut: FeedPresenter, view: ViewSpy) {
+        let view = ViewSpy()
+        let sut = FeedPresenter(feedView: view, loadingView: view, errorView: view)
+        trackForMemoryLeaks(view, file: file, line: line)
+        trackForMemoryLeaks(sut, file: file, line: line)
+        return (sut, view)
     }
 
     private func localized(_ key: String, file: StaticString = #file, line: UInt = #line) -> String {
