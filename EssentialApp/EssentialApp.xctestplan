@@ -12,7 +12,13 @@
     "testExecutionOrdering" : "random"
   },
   "testTargets" : [
-
+    {
+      "target" : {
+        "containerPath" : "container:EssentialApp.xcodeproj",
+        "identifier" : "6C95D6BC2B2AB3C300295E22",
+        "name" : "EssentialAppTests"
+      }
+    }
   ],
   "version" : 1
 }

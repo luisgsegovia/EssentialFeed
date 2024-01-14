@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C7179B82B547BA200A2E9DD /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7179B72B547BA200A2E9DD /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		6C95D6AB2B2AB3C200295E22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95D6AA2B2AB3C200295E22 /* AppDelegate.swift */; };
 		6C95D6AD2B2AB3C200295E22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95D6AC2B2AB3C200295E22 /* SceneDelegate.swift */; };
 		6C95D6AF2B2AB3C200295E22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95D6AE2B2AB3C200295E22 /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C7179B72B547BA200A2E9DD /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		6C95D6A72B2AB3C200295E22 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C95D6AA2B2AB3C200295E22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C95D6AC2B2AB3C200295E22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		6C95D6C02B2AB3C300295E22 /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				6C7179B72B547BA200A2E9DD /* FeedLoaderWithFallbackCompositeTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 					};
 					6C95D6BC2B2AB3C300295E22 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1510;
 						TestTargetID = 6C95D6A62B2AB3C200295E22;
 					};
 					6C95D6C62B2AB3C300295E22 = {
@@ -299,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7179B82B547BA200A2E9DD /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +527,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -530,6 +536,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luissegovia.EssentialAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssentialApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EssentialApp";
@@ -541,6 +548,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
