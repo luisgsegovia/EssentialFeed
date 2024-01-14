@@ -13,7 +13,6 @@
 		6C95D6B22B2AB3C200295E22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C95D6B02B2AB3C200295E22 /* Main.storyboard */; };
 		6C95D6B42B2AB3C300295E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C95D6B32B2AB3C300295E22 /* Assets.xcassets */; };
 		6C95D6B72B2AB3C300295E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C95D6B52B2AB3C300295E22 /* LaunchScreen.storyboard */; };
-		6C95D6C22B2AB3C300295E22 /* EssentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95D6C12B2AB3C300295E22 /* EssentialAppTests.swift */; };
 		6C95D6CC2B2AB3C300295E22 /* EssentialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95D6CB2B2AB3C300295E22 /* EssentialAppUITests.swift */; };
 		6C95D6CE2B2AB3C300295E22 /* EssentialAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95D6CD2B2AB3C300295E22 /* EssentialAppUITestsLaunchTests.swift */; };
 		6C95D6DD2B2AB60E00295E22 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C95D6DB2B2AB60E00295E22 /* EssentialFeed.framework */; };
@@ -64,7 +63,6 @@
 		6C95D6B62B2AB3C300295E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C95D6B82B2AB3C300295E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C95D6BD2B2AB3C300295E22 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C95D6C12B2AB3C300295E22 /* EssentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppTests.swift; sourceTree = "<group>"; };
 		6C95D6C72B2AB3C300295E22 /* EssentialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C95D6CB2B2AB3C300295E22 /* EssentialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUITests.swift; sourceTree = "<group>"; };
 		6C95D6CD2B2AB3C300295E22 /* EssentialAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 		6C95D6C02B2AB3C300295E22 /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				6C95D6C12B2AB3C300295E22 /* EssentialAppTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -302,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C95D6C22B2AB3C300295E22 /* EssentialAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
