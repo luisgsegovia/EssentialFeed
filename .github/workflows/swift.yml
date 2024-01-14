@@ -1,7 +1,8 @@
 name: CI_iOS
 
-on: [push]
-  Branches: [main]
+on:
+  push:
+    branches: [main]
 
 jobs:
   build-and-test:
