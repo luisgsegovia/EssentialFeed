@@ -94,8 +94,6 @@
 		6C95D6B62B2AB3C300295E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C95D6B82B2AB3C300295E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C95D6BD2B2AB3C300295E22 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C95D6CB2B2AB3C300295E22 /* EssentialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUITests.swift; sourceTree = "<group>"; };
-		6C95D6CD2B2AB3C300295E22 /* EssentialAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6C95D6DB2B2AB60E00295E22 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C95D6DC2B2AB60E00295E22 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -154,7 +152,6 @@
 			children = (
 				6C95D6A92B2AB3C200295E22 /* EssentialApp */,
 				6C95D6C02B2AB3C300295E22 /* EssentialAppTests */,
-				6C95D6CA2B2AB3C300295E22 /* EssentialAppUITests */,
 				6C83BEEA2B82E1D100FD95DC /* EssentialAppUIAcceptanceTests */,
 				6C95D6A82B2AB3C200295E22 /* Products */,
 				6C95D6DA2B2AB60E00295E22 /* Frameworks */,
@@ -199,15 +196,6 @@
 				6C7179CE2B56374B00A2E9DD /* FeedImageDataLaoderCacheDecoratorTests.swift */,
 			);
 			path = EssentialAppTests;
-			sourceTree = "<group>";
-		};
-		6C95D6CA2B2AB3C300295E22 /* EssentialAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6C95D6CB2B2AB3C300295E22 /* EssentialAppUITests.swift */,
-				6C95D6CD2B2AB3C300295E22 /* EssentialAppUITestsLaunchTests.swift */,
-			);
-			path = EssentialAppUITests;
 			sourceTree = "<group>";
 		};
 		6C95D6DA2B2AB60E00295E22 /* Frameworks */ = {
