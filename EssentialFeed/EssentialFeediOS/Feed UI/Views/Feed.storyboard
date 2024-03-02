@@ -45,7 +45,6 @@
                         <view key="tableFooterView" contentMode="scaleToFill" id="Diz-8a-bRN">
                             <rect key="frame" x="0.0" y="692" width="393" height="16"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedImageCell" rowHeight="580" id="FTU-Hh-FWu" customClass="FeedImageCell" customModule="EssentialFeediOS" customModuleProvider="target">
@@ -71,7 +70,6 @@
                                                                     </constraints>
                                                                 </imageView>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                             <constraints>
                                                                 <constraint firstItem="uif-lG-yEv" firstAttribute="top" secondItem="xjz-qq-NqD" secondAttribute="top" constant="3" id="GUj-PR-u3Q"/>
                                                                 <constraint firstAttribute="width" constant="10" id="ygK-RA-Niq"/>
@@ -81,7 +79,7 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location, Location" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Mt-rm-I2V">
                                                             <rect key="frame" x="16.000000000000007" y="0.0" width="125.66666666666669" height="18"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                            <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="textColor" systemColor="secondaryLabelColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
@@ -94,7 +92,7 @@
                                                             <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                             <state key="normal" title="↻">
-                                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="titleColor" systemColor="systemBackgroundColor"/>
                                                             </state>
                                                             <connections>
                                                                 <action selector="retryButtonTapped" destination="FTU-Hh-FWu" eventType="touchUpInside" id="zqm-qg-iWR"/>
@@ -102,10 +100,12 @@
                                                         </button>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GVT-s7-qUG">
                                                             <rect key="frame" x="0.0" y="0.0" width="353" height="353"/>
-                                                            <accessibility key="accessibilityConfiguration" label="feed-image-view"/>
+                                                            <accessibility key="accessibilityConfiguration" label="feed-image-view">
+                                                                <bool key="isElement" value="NO"/>
+                                                            </accessibility>
                                                         </imageView>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstItem="GVT-s7-qUG" firstAttribute="leading" secondItem="HoF-7J-SAs" secondAttribute="leading" id="05E-JP-Uh1"/>
                                                         <constraint firstItem="2G7-Do-rUH" firstAttribute="top" secondItem="HoF-7J-SAs" secondAttribute="top" id="1a0-yM-Ls5"/>
@@ -127,7 +127,7 @@
                                                     <rect key="frame" x="0.0" y="431.33333333333331" width="349" height="114.66666666666669"/>
                                                     <string key="text">Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description </string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" systemColor="secondaryLabelColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -184,6 +184,12 @@
     </scenes>
     <resources>
         <image name="pin" width="10" height="14.333333015441895"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
